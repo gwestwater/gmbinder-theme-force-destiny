@@ -1,0 +1,786 @@
+<style>
+
+.phb:after {
+    display: none;
+}
+
+/* Background */
+
+.phb {
+    background-image: url('https://www.gmbinder.com/images/UCIUXyr.jpg');
+    background-size: cover;
+}
+
+/* Notes */
+
+.phb blockquote {
+    background-color: #ebcec3;
+}
+
+.phb hr + blockquote tr:nth-child(odd) td {
+    background-color: #FDF1DC;
+}
+
+
+/* Tables */
+
+.phb hr+section blockquote tr:nth-child(odd) td {
+    background-color: transparent;
+}
+
+table tr:nth-child(odd) td {
+    background-color: #ebcec3;
+}
+
+
+/* Footer */
+
+.phb .pageNumber {
+    color: rgba(0, 0, 0, 0.6)
+}
+
+.phb .footnote {
+    color: rgba(0, 0, 0, 0.6)
+}
+
+.phb:after {
+    background-image: url('https://www.gmbinder.com/images/EsLXSby.png')
+}
+
+.phb code {
+    font-size: 9pt;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+
+/* Main Background */
+
+.phb {
+    background-image: url("https://www.gmbinder.com/images/N2eHPVU.jpg");
+    background-size: 100%;
+    text-align: justify;
+    text-indent: 0px;
+}
+
+
+/* Crawl Background */
+
+.crawl {
+    backgound-image: url("https://www.gmbinder.com/images/pwhRwlW.jpg");
+    background-size: 100%;
+    text-align: justify;
+    text-indent: 0px;
+}
+
+/* Planet Background */
+
+.planet {
+    backgound-image: url("https://www.gmbinder.com/images/pwhRwlW.jpg");
+    background-size: 100%;
+    text-align: justify;
+    text-indent: 0px;
+}
+.planet h1 {
+    font-family: 'Elektra Medium Pro';
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 24pt;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+/* Fonts */
+
+.phb {
+    font-family: 'Temporarium', serif;
+}
+
+.phb h1 {
+    font-family: 'Elektra Medium Pro';
+    text-transform: uppercase;
+    color: #51634A;
+    font-size: 23pt;
+    line-height: 1.2em;
+    font-weight: bold;
+}
+
+.phb h1 + p:first-letter {
+    font-family: 'Elektra Medium Pro';
+    color: #51634A;
+    font-size: 24pt;
+    line-height: 1.2em;
+    margin-bottom: -9px;
+    margin-right: 2px;
+    margin-top: -5px;
+    float: left;
+}
+
+.phb h2 {
+    font-family: 'Elektra Medium Pro';
+    text-transform: uppercase;
+    color: #6e272d;
+    font-size: 16pt;
+    font-weight: bold;
+}
+
+.phb h3 {
+    font-family: 'Elektra Medium Pro';
+    text-transform: uppercase;
+    color: #a48e3b;
+    font-size: 10pt;
+    font-weight: bold;
+    border-bottom: none;
+    text-align: right;
+}
+
+.phb h4 {
+    color: #8D7F7C;
+    text-align: center;
+    font-family: 'Elektra Medium Pro';
+    line-height: 12pt;
+    font-size: 12pt;
+    text-transform: uppercase;
+}
+
+.phb h5 {
+    color: #51634A;
+    text-align: left;
+    font-family: TeutonNormal;
+    font-size: 12pt;
+    text-transform: uppercase;
+}
+
+.phb h6 {
+    font-family: 'Elektra Medium Pro';
+    text-transform: uppercase;
+    color: #6e272d;
+    font-size: 12pt;
+    font-weight: bold;
+    line-height: 12pt;
+}
+
+.phb p {
+    font-size: 9pt;
+    letter-spacing: -0.4px;
+    line-height: 1.15em;
+    text-indent: 0px !important;
+    font-weight: 400;
+    padding-bottom: 1px;
+    column-fill: balance;
+}
+
+.phb p + p {
+    margin-top: 0px;
+}
+
+.phb wide {
+    clear: both;
+}
+
+.phb ul {
+    list-style: none;
+    font-size: 9pt;
+}
+
+.phb ul li::before {
+    content: "•";
+    color: #2F90E7;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+
+/* Tables */
+
+.phb td {
+    font-family: TeutonNormal, serif;
+    font-size: 8pt;
+    font-weight: 400;
+    text-align: left;
+}
+
+.phb td,
+th {
+    border: 1px solid gray;
+}
+
+.phb table {
+    overflow: auto;
+}
+
+.phb table tr:nth-child(odd) td {
+    background-color: #B9B6B4;
+}
+
+.phb table thead th {
+    color: white;
+    background-color: #393A34;
+    padding-top: 0.3em;
+    padding-left: 0.5em;
+    text-transform: uppercase;
+    font-family: TeutonNormal;
+}
+
+.phb table tbody tr td {
+    padding: 0.5em;
+}
+
+.phb table thead {
+    display: table-row-group;
+}
+
+.phb table .subheader td {
+    color: white;
+    text-transform: uppercase;
+    padding-bottom: 2px;
+    background-color: #2D4864 !important;
+    font-size: 10pt;
+    font-weight: bold;
+}
+
+
+/* Genesys Notes */
+
+.phb .note {
+    display: block;
+    font-family: 'Temporarium';
+    color: #ffffff;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    background-color: #040000;
+}
+
+.phb .note:before,
+.note:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 100%;
+    border-bottom: 15px solid #040000;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+}
+
+.phb .note:after {
+    bottom: auto;
+    top: 100%;
+    border-bottom: none;
+    border-top: 15px solid #040000;
+}
+
+.phb .note ul li::before {
+    content: "•";
+    color: white;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.phb .note h2 {
+    color: white;
+}
+
+.phb .note h5 {
+    color: white;
+}
+
+.phb .note td {
+    color: black;
+}
+
+.phb .note table tr:nth-child(even) td {
+    background-color: #ffffff;
+}
+
+
+/* Example Block */
+
+.phb .example a {
+    color: #83808A;
+}
+
+.phb .example {
+    display: block;
+    font-family: 'Temporarium';
+    color: #83808A;
+    padding-left: 25px;
+    padding-right: 25px;
+    position: relative;
+    background-color: #2D2932;
+}
+
+.phb .example:before,
+.example:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 100%;
+    border-bottom: 25px solid #2D2932;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+}
+
+.phb .example:after {
+    bottom: auto;
+    top: 100%;
+    border-bottom: none;
+    border-top: 25px solid #2D2932;
+}
+
+
+/* Read-aloud */
+
+.phb .read {
+    display: block;
+    font-family: 'Temporarium';
+    color: #a48e3b;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    background-color: #a33638;
+    font-style: italic;
+}
+
+.phb .read:before,
+.read:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 100%;
+    border-bottom: 15px solid #a33638;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+}
+
+.phb .read:after {
+    bottom: auto;
+    top: 100%;
+    border-bottom: none;
+    border-top: 15px solid #a33638;
+}
+
+
+/* Footer */
+
+.phb .pageNumber {
+    color: #000000
+}
+
+.phb .footnote {
+    color: #000000
+}
+
+.phb:nth-child(odd) .pageNumber {
+    color: black;
+    right: 40px;
+    bottom: 40px;
+    width: 50px;
+    text-align: center;
+    font-family: 'Elektra Medium Pro';
+    font-size: 11pt;
+    font-weight: normal;
+}
+
+.phb:nth-child(even) .pageNumber {
+    color: black;
+    left: 40px;
+    bottom: 40px;
+    width: 50px;
+    text-align: center;
+    font-family: 'Elektra Medium Pro';
+    font-size: 11pt;
+    font-weight: normal;
+}
+
+.phb .footnote {
+    color: black;
+    font-family: 'Elektra Medium Pro';
+    vertical-align: center;
+    padding-top: 11px;
+}
+
+
+/* Dice and Symbols */
+
+@font-face {
+    font-family: 'EotE Symbol';
+    src: local('EotE Symbol');
+}
+
+.phb .symbols {
+    font-family: 'Eote Symbol';
+}
+
+.phb .dice {
+    font-family: 'EotE Symbol';
+}
+
+.phb .setback {
+    font-family: 'EotE Symbol';
+    color: black;
+    text-shadow: -1px 0 #000000, 0 1px #000000, 1px 0 #000000, 0 -1px #000000;
+}
+
+.phb .note .setback,
+.phb .note .boost,
+.phb .note .challenge,
+.phb .note .proficiency,
+.phb .note .difficulty,
+.phb .note .ability {
+    text-shadow: -1px 0 #ffffff, 0 1px #ffffff, 1px 0 #ffffff, 0 -1px #ffffff;
+}
+
+.phb .notetd > .setback,
+.phb .note td > .boost,
+.phb .note td > .challenge,
+.phb .note td > .proficiency,
+.phb .note td >.difficulty,
+.phb .note td.ability {
+    text-shadow: -1px 0 #000000, 0 1px #000000, 1px 0 #000000, 0 -1px #000000;
+}
+
+.phb .boost {
+    font-family: 'EotE Symbol';
+    color: #76CDDB;
+    text-shadow: -1px 0 #000000, 0 1px #000000, 1px 0 #000000, 0 -1px #000000;
+}
+
+.phb .challenge {
+    font-family: 'EotE Symbol';
+    color: #751317;
+    text-shadow: -1px 0 #000000, 0 1px #000000, 1px 0 #000000, 0 -1px #000000;
+}
+
+.phb .proficiency {
+    font-family: 'EotE Symbol';
+    color: #FEF035;
+    text-shadow: -1px 0 #000000, 0 1px #000000, 1px 0 #000000, 0 -1px #000000;
+}
+
+.phb .difficulty {
+    font-family: 'EotE Symbol';
+    color: #52287E;
+    text-shadow: -1px 0 #000000, 0 1px #000000, 1px 0 #000000, 0 -1px #000000;
+}
+
+.phb .ability {
+    font-family: 'EotE Symbol';
+    color: #46AC4E;
+    text-shadow: -1px 0 #000000, 0 1px #000000, 1px 0 #000000, 0 -1px #000000;
+}
+
+
+/* Archetypes */
+
+.phb .archetype {
+    background-image: url('https://www.gmbinder.com/images/wk1XTwj.png');
+    height: 62px;
+    width: 329px;
+    background-size: 100%;
+    font-family: 'Bebas Neue';
+    font-size: 14pt;
+}
+
+.phb .archetype .bra {
+    position: relative;
+    left: 14px;
+    top: 6px;
+    text-align: center;
+    display: inline-block;
+    width: 25px;
+}
+
+.phb .archetype .agi {
+    position: relative;
+    left: 42px;
+    top: 6px;
+    width: 25px;
+    text-align: center;
+    display: inline-block;
+}
+
+.phb .archetype .int {
+    position: relative;
+    left: 68px;
+    top: 6px;
+    width: 25px;
+    text-align: center;
+    display: inline-block;
+}
+
+.phb .archetype .cun {
+    position: relative;
+    left: 95px;
+    top: 6px;
+    width: 25px;
+    text-align: center;
+    display: inline-block;
+}
+
+.phb .archetype .wil {
+    position: relative;
+    left: 122px;
+    top: 6px;
+    width: 25px;
+    text-align: center;
+    display: inline-block;
+}
+
+.phb .archetype .pre {
+    position: relative;
+    left: 148px;
+    top: 6px;
+    width: 25px;
+    text-align: center;
+    display: inline-block;
+}
+
+
+/* Adversaries */
+
+.phb .adversary {
+    background-image: url('https://www.gmbinder.com/images/ks1JaPU.png');
+    height: 47px;
+    width: 329px;
+    background-position: -3px 0px;
+    background-size: 102%;
+    font-family: 'Bebas Neue';
+    font-size: 14pt;
+}
+
+.phb .adversary .soak {
+    position: relative;
+    left: 26px;
+    top: 13px;
+    width: 25px;
+    text-align: center;
+    display: inline-block;
+}
+
+.phb .adversary .wound {
+    position: relative;
+    left: 79px;
+    top: 13px;
+    width: 25px;
+    text-align: center;
+    display: inline-block;
+}
+
+.phb .adversary .strain {
+    position: relative;
+    left: 135px;
+    top: 13px;
+    width: 25px;
+    text-align: center;
+    display: inline-block;
+}
+
+.phb .adversary .mdef {
+    position: relative;
+    left: 176px;
+    top: 13px;
+    width: 25px;
+    text-align: center;
+    display: inline-block;
+}
+
+.phb .adversary .rdef {
+    position: relative;
+    left: 175px;
+    top: 13px;
+    width: 25px;
+    text-align: center;
+    display: inline-block;
+}
+
+
+/* MINION STAT BLOCK */
+
+.phb .minion {
+    background-image: url('https://www.gmbinder.com/images/K1aEwZa.png');
+    height: 63px;
+    width: 329px;
+    background-position: 42px 0px;
+    background-repeat: no-repeat;
+    background-size: 75%;
+    font-family: 'Bebas Neue';
+    font-size: 14pt;
+}
+
+.phb .minion .soak {
+    position: relative;
+    left: 71px;
+    top: 13px;
+    width: 25px;
+    text-align: center;
+    display: inline-block;
+}
+
+.phb .minion .wound {
+    position: relative;
+    left: 125px;
+    top: 13px;
+    width: 25px;
+    text-align: center;
+    display: inline-block;
+}
+
+.phb .minion .mdef {
+    position: relative;
+    left: 165px;
+    top: 13px;
+    width: 25px;
+    text-align: center;
+    display: inline-block;
+}
+
+.phb .minion .rdef {
+    position: relative;
+    left: 165px;
+    top: 13px;
+    width: 25px;
+    text-align: center;
+    display: inline-block;
+}
+
+
+/* Vehicles */
+
+.phb .vehicle {
+    background-image: url('https://www.gmbinder.com/images/JEgri2b.png');
+    height: 80px;
+    width: 329px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-family: 'Bebas Neue';
+    font-size: 14pt;
+}
+
+.phb .vehicle .sil {
+    position: relative;
+    left: 14px;
+    top: 6px;
+    text-align: center;
+    display: inline-block;
+    width: 25px;
+}
+
+.phb .vehicle .speed {
+    position: relative;
+    left: 41px;
+    top: 6px;
+    text-align: center;
+    display: inline-block;
+    width: 25px;
+}
+
+.phb .vehicle .hand {
+    position: relative;
+    left: 67px;
+    top: 6px;
+    text-align: center;
+    display: inline-block;
+    width: 25px;
+}
+
+.phb .vehicle .armor {
+    position: relative;
+    left: 107px;
+    top: 12px;
+    text-align: center;
+    display: inline-block;
+    width: 25px;
+}
+
+.phb .vehicle .def {
+    position: relative;
+    left: 163px;
+    top: 12px;
+    text-align: center;
+    display: inline-block;
+    width: 25px;
+}
+
+.phb .vehicle .ht {
+    position: relative;
+    left: 53px;
+    top: 53px;
+    text-align: center;
+    display: inline-block;
+    width: 25px;
+}
+
+.phb .vehicle .ss {
+    position: relative;
+    left: 107px;
+    top: 53px;
+    text-align: center;
+    display: inline-block;
+    width: 25px;
+}
+
+
+/*Index*/
+
+.phb .index-letter {
+    color: rgb(118, 18, 19);
+    font-size: 24pt;
+    font-weight: bold;
+    font-family: 'Bebas Neue';
+    line-height: 1.1em;
+}
+
+.phb .index {
+    list-style: none;
+    padding: 0;
+    overflow-x: hidden;
+    max-width: 329px;
+}
+
+.phb .index li::before {
+    content: "";
+}
+
+.phb .index li {
+    display: flex;
+}
+
+.phb .index li span:first-child {
+    margin-right: 0.2em;
+    order: 1;
+}
+
+.phb .index li::after {
+    content: "";
+    border-bottom: 1px dotted;
+    flex-grow: 1;
+    order: 2;
+    position: relative;
+    top: -5px
+}
+
+.phb .index span + span {
+    order: 3;
+    margin-left: 0.2em;
+}
+
+
+/* NON BLENDED IMAGE BORDER */
+
+.phb .non-blended {
+    padding: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-image: linear-gradient(135deg, rgba(230, 0, 0, 1) 0%, rgba(230, 0, 0, 0.01) 99%, rgba(230, 0, 0, 0) 100%);
+    -moz-border-image: -moz-linear-gradient(-45deg, rgba(230, 0, 0, 1) 0%, rgba(230, 0, 0, 0.01) 99%, rgba(230, 0, 0, 0) 100%);
+    -webkit-border-image: -webkit-linear-gradient(-45deg, rgba(230, 0, 0, 1) 0%, rgba(230, 0, 0, 0.01) 99%, rgba(230, 0, 0, 0) 100%);
+    border-image-slice: 1;
+}
+
+</style>
