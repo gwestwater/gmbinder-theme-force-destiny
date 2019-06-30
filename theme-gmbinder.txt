@@ -1,0 +1,1385 @@
+<style>
+.phb { background-image: url("https://www.gmbinder.com/images/5s6VJkT.png"); text-align:justify; text-indent:0px;}
+
+.phb:after { display: none; }
+
+/* Background */
+.phb { background-size: cover; }
+
+/* Notes */
+.phb blockquote {
+    background-color: #ebcec3;
+}
+
+.phb hr + blockquote tr:nth-child(odd) td {
+    background-color: #FDF1DC;
+}
+
+
+/* Tables */
+
+.phb hr+section blockquote tr:nth-child(odd) td {
+    background-color: transparent;
+}
+
+table tr:nth-child(odd) td {
+    background-color: #ebcec3;
+}
+
+
+/* Footer */
+.phb .footnote {
+    color: rgba(0, 0, 0, 0.6)
+}
+
+.phb:after {
+    background-image: url('https://www.gmbinder.com/images/EsLXSby.png')
+}
+
+.phb code {
+    font-size: 9pt;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+
+/* Main Background */
+
+.phb {
+    background-image: url("https://www.gmbinder.com/images/N2eHPVU.jpg");
+    background-size: 100%;
+    text-align: justify;
+    text-indent: 0px;
+}
+
+
+/* Crawl Background */
+
+.crawl {
+    backgound-image: url("https://www.gmbinder.com/images/pwhRwlW.jpg");
+    background-size: 100%;
+    text-align: justify;
+    text-indent: 0px;
+}
+
+/* Planet Background */
+
+.planet {
+    backgound-image: url("https://www.gmbinder.com/images/pwhRwlW.jpg");
+    background-size: 100%;
+    text-align: justify;
+    text-indent: 0px;
+}
+.planet h1 {
+    font-family: 'Elektra Medium Pro';
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 24pt;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+/* Fonts */
+
+.phb {
+    font-family: 'Temporarium', serif;
+}
+
+.phb h1 {
+    font-family: 'Elektra Medium Pro';
+    text-transform: uppercase;
+    color: #51634A;
+    font-size: 23pt;
+    line-height: 1.2em;
+    font-weight: bold;
+}
+
+.phb h1 + p:first-letter {
+    font-family: 'Elektra Medium Pro';
+    color: #51634A;
+    font-size: 24pt;
+    line-height: 1.2em;
+    margin-bottom: -9px;
+    margin-right: 2px;
+    margin-top: -5px;
+    float: left;
+}
+
+.phb h2 {
+    font-family: 'Elektra Medium Pro';
+    text-transform: uppercase;
+    color: #6e272d;
+    font-size: 16pt;
+    font-weight: bold;
+}
+
+.phb h3 {
+    font-family: 'Elektra Medium Pro';
+    text-transform: uppercase;
+    color: #a48e3b;
+    font-size: 10pt;
+    font-weight: bold;
+    border-bottom: none;
+    text-align: right;
+}
+
+.phb h4 {
+    color: #8D7F7C;
+    text-align: center;
+    font-family: 'Elektra Medium Pro';
+    line-height: 12pt;
+    font-size: 12pt;
+    text-transform: uppercase;
+}
+
+.phb h5 {
+    color: #51634A;
+    text-align: left;
+    font-family: TeutonNormal;
+    font-size: 12pt;
+    text-transform: uppercase;
+}
+
+.phb h6 {
+    font-family: 'Elektra Medium Pro';
+    text-transform: uppercase;
+    color: #6e272d;
+    font-size: 12pt;
+    font-weight: bold;
+    line-height: 12pt;
+}
+
+.phb p {
+    font-size: 9pt;
+    letter-spacing: -0.4px;
+    line-height: 1.15em;
+    text-indent: 0px !important;
+    font-weight: 400;
+    padding-bottom: 1px;
+    column-fill: balance;
+}
+
+.phb p + p {
+    margin-top: 0px;
+}
+
+.phb wide {
+    clear: both;
+}
+
+.phb ul {
+    list-style: none;
+    font-size: 9pt;
+}
+
+.phb ul li::before {
+    content: "•";
+    color: #2F90E7;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+
+/* Tables */
+
+.phb td {
+    font-family: TeutonNormal, serif;
+    font-size: 8pt;
+    font-weight: 400;
+    text-align: left;
+}
+
+.phb td,
+th {
+    border: 1px solid gray;
+}
+
+.phb table {
+    overflow: auto;
+}
+
+.phb table tr:nth-child(odd) td {
+    background-color: #B9B6B4;
+}
+
+.phb table thead th {
+    color: white;
+    background-color: #393A34;
+    padding-top: 0.3em;
+    padding-left: 0.5em;
+    text-transform: uppercase;
+    font-family: TeutonNormal;
+}
+
+.phb table tbody tr td {
+    padding: 0.5em;
+}
+
+.phb table thead {
+    display: table-row-group;
+}
+
+.phb table .subheader td {
+    color: white;
+    text-transform: uppercase;
+    padding-bottom: 2px;
+    background-color: #2D4864 !important;
+    font-size: 10pt;
+    font-weight: bold;
+}
+
+
+/* Genesys Notes */
+
+.phb .note {
+    display: block;
+    font-family: 'Temporarium';
+    color: #ffffff;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    background-color: #040000;
+}
+
+.phb .note:before,
+.note:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 100%;
+    border-bottom: 15px solid #040000;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+}
+
+.phb .note:after {
+    bottom: auto;
+    top: 100%;
+    border-bottom: none;
+    border-top: 15px solid #040000;
+}
+
+.phb .note ul li::before {
+    content: "•";
+    color: white;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.phb .note h2 {
+    color: white;
+}
+
+.phb .note h5 {
+    color: white;
+}
+
+.phb .note td {
+    color: black;
+}
+
+.phb .note table tr:nth-child(even) td {
+    background-color: #ffffff;
+}
+
+
+/* Example Block */
+
+.phb .example a {
+    color: #83808A;
+}
+
+.phb .example {
+    display: block;
+    font-family: 'Temporarium';
+    color: #83808A;
+    padding-left: 25px;
+    padding-right: 25px;
+    position: relative;
+    background-color: #2D2932;
+}
+
+.phb .example:before,
+.example:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 100%;
+    border-bottom: 25px solid #2D2932;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+}
+
+.phb .example:after {
+    bottom: auto;
+    top: 100%;
+    border-bottom: none;
+    border-top: 25px solid #2D2932;
+}
+
+
+/* Read-aloud */
+
+.phb .read {
+    display: block;
+    font-family: 'Temporarium';
+    color: #a48e3b;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    background-color: #a33638;
+    font-style: italic;
+}
+
+.phb .read:before,
+.read:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 100%;
+    border-bottom: 15px solid #a33638;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+}
+
+.phb .read:after {
+    bottom: auto;
+    top: 100%;
+    border-bottom: none;
+    border-top: 15px solid #a33638;
+}
+
+
+/* Footer */
+
+.phb .footnote {
+    color: #000000
+}
+
+
+.phb .footnote {
+    color: black;
+    font-family: 'Elektra Medium Pro';
+    vertical-align: center;
+    padding-top: 11px;
+}
+
+
+/* Dice and Symbols */
+
+@font-face {
+    font-family: 'EotE Symbol';
+    src: local('EotE Symbol');
+}
+
+.phb .symbols {
+    font-family: 'Eote Symbol';
+}
+
+.phb .dice {
+    font-family: 'EotE Symbol';
+}
+
+.phb .setback {
+    font-family: 'EotE Symbol';
+    color: black;
+    text-shadow: -1px 0 #000000, 0 1px #000000, 1px 0 #000000, 0 -1px #000000;
+}
+
+.phb .note .setback,
+.phb .note .boost,
+.phb .note .challenge,
+.phb .note .proficiency,
+.phb .note .difficulty,
+.phb .note .ability {
+    text-shadow: -1px 0 #ffffff, 0 1px #ffffff, 1px 0 #ffffff, 0 -1px #ffffff;
+}
+
+.phb .notetd > .setback,
+.phb .note td > .boost,
+.phb .note td > .challenge,
+.phb .note td > .proficiency,
+.phb .note td >.difficulty,
+.phb .note td.ability {
+    text-shadow: -1px 0 #000000, 0 1px #000000, 1px 0 #000000, 0 -1px #000000;
+}
+
+.phb .boost {
+    font-family: 'EotE Symbol';
+    color: #76CDDB;
+    text-shadow: -1px 0 #000000, 0 1px #000000, 1px 0 #000000, 0 -1px #000000;
+}
+
+.phb .challenge {
+    font-family: 'EotE Symbol';
+    color: #751317;
+    text-shadow: -1px 0 #000000, 0 1px #000000, 1px 0 #000000, 0 -1px #000000;
+}
+
+.phb .proficiency {
+    font-family: 'EotE Symbol';
+    color: #FEF035;
+    text-shadow: -1px 0 #000000, 0 1px #000000, 1px 0 #000000, 0 -1px #000000;
+}
+
+.phb .difficulty {
+    font-family: 'EotE Symbol';
+    color: #52287E;
+    text-shadow: -1px 0 #000000, 0 1px #000000, 1px 0 #000000, 0 -1px #000000;
+}
+
+.phb .ability {
+    font-family: 'EotE Symbol';
+    color: #46AC4E;
+    text-shadow: -1px 0 #000000, 0 1px #000000, 1px 0 #000000, 0 -1px #000000;
+}
+
+
+/* Archetypes */
+
+.phb .archetype {
+    background-image: url('https://www.gmbinder.com/images/wk1XTwj.png');
+    height: 62px;
+    width: 329px;
+    background-size: 100%;
+    font-family: 'Bebas Neue';
+    font-size: 14pt;
+}
+
+.phb .archetype .bra {
+    position: relative;
+    left: 14px;
+    top: 6px;
+    text-align: center;
+    display: inline-block;
+    width: 25px;
+}
+
+.phb .archetype .agi {
+    position: relative;
+    left: 42px;
+    top: 6px;
+    width: 25px;
+    text-align: center;
+    display: inline-block;
+}
+
+.phb .archetype .int {
+    position: relative;
+    left: 68px;
+    top: 6px;
+    width: 25px;
+    text-align: center;
+    display: inline-block;
+}
+
+.phb .archetype .cun {
+    position: relative;
+    left: 95px;
+    top: 6px;
+    width: 25px;
+    text-align: center;
+    display: inline-block;
+}
+
+.phb .archetype .wil {
+    position: relative;
+    left: 122px;
+    top: 6px;
+    width: 25px;
+    text-align: center;
+    display: inline-block;
+}
+
+.phb .archetype .pre {
+    position: relative;
+    left: 148px;
+    top: 6px;
+    width: 25px;
+    text-align: center;
+    display: inline-block;
+}
+
+
+/* Adversaries */
+
+.phb .adversary {
+    background-image: url('https://www.gmbinder.com/images/ks1JaPU.png');
+    height: 47px;
+    width: 329px;
+    background-position: -3px 0px;
+    background-size: 102%;
+    font-family: 'Bebas Neue';
+    font-size: 14pt;
+}
+
+.phb .adversary .soak {
+    position: relative;
+    left: 26px;
+    top: 13px;
+    width: 25px;
+    text-align: center;
+    display: inline-block;
+}
+
+.phb .adversary .wound {
+    position: relative;
+    left: 79px;
+    top: 13px;
+    width: 25px;
+    text-align: center;
+    display: inline-block;
+}
+
+.phb .adversary .strain {
+    position: relative;
+    left: 135px;
+    top: 13px;
+    width: 25px;
+    text-align: center;
+    display: inline-block;
+}
+
+.phb .adversary .mdef {
+    position: relative;
+    left: 176px;
+    top: 13px;
+    width: 25px;
+    text-align: center;
+    display: inline-block;
+}
+
+.phb .adversary .rdef {
+    position: relative;
+    left: 175px;
+    top: 13px;
+    width: 25px;
+    text-align: center;
+    display: inline-block;
+}
+
+
+/* MINION STAT BLOCK */
+
+.phb .minion {
+    background-image: url('https://www.gmbinder.com/images/K1aEwZa.png');
+    height: 63px;
+    width: 329px;
+    background-position: 42px 0px;
+    background-repeat: no-repeat;
+    background-size: 75%;
+    font-family: 'Bebas Neue';
+    font-size: 14pt;
+}
+
+.phb .minion .soak {
+    position: relative;
+    left: 71px;
+    top: 13px;
+    width: 25px;
+    text-align: center;
+    display: inline-block;
+}
+
+.phb .minion .wound {
+    position: relative;
+    left: 125px;
+    top: 13px;
+    width: 25px;
+    text-align: center;
+    display: inline-block;
+}
+
+.phb .minion .mdef {
+    position: relative;
+    left: 165px;
+    top: 13px;
+    width: 25px;
+    text-align: center;
+    display: inline-block;
+}
+
+.phb .minion .rdef {
+    position: relative;
+    left: 165px;
+    top: 13px;
+    width: 25px;
+    text-align: center;
+    display: inline-block;
+}
+
+
+/* Vehicles */
+
+.phb .vehicle {
+    background-image: url('https://www.gmbinder.com/images/JEgri2b.png');
+    height: 80px;
+    width: 329px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-family: 'Bebas Neue';
+    font-size: 14pt;
+}
+
+.phb .vehicle .sil {
+    position: relative;
+    left: 14px;
+    top: 6px;
+    text-align: center;
+    display: inline-block;
+    width: 25px;
+}
+
+.phb .vehicle .speed {
+    position: relative;
+    left: 41px;
+    top: 6px;
+    text-align: center;
+    display: inline-block;
+    width: 25px;
+}
+
+.phb .vehicle .hand {
+    position: relative;
+    left: 67px;
+    top: 6px;
+    text-align: center;
+    display: inline-block;
+    width: 25px;
+}
+
+.phb .vehicle .armor {
+    position: relative;
+    left: 107px;
+    top: 12px;
+    text-align: center;
+    display: inline-block;
+    width: 25px;
+}
+
+.phb .vehicle .def {
+    position: relative;
+    left: 163px;
+    top: 12px;
+    text-align: center;
+    display: inline-block;
+    width: 25px;
+}
+
+.phb .vehicle .ht {
+    position: relative;
+    left: 53px;
+    top: 53px;
+    text-align: center;
+    display: inline-block;
+    width: 25px;
+}
+
+.phb .vehicle .ss {
+    position: relative;
+    left: 107px;
+    top: 53px;
+    text-align: center;
+    display: inline-block;
+    width: 25px;
+}
+
+
+/*Index*/
+
+.phb .index-letter {
+    color: rgb(118, 18, 19);
+    font-size: 24pt;
+    font-weight: bold;
+    font-family: 'Bebas Neue';
+    line-height: 1.1em;
+}
+
+.phb .index {
+    list-style: none;
+    padding: 0;
+    overflow-x: hidden;
+    max-width: 329px;
+}
+
+.phb .index li::before {
+    content: "";
+}
+
+.phb .index li {
+    display: flex;
+}
+
+.phb .index li span:first-child {
+    margin-right: 0.2em;
+    order: 1;
+}
+
+.phb .index li::after {
+    content: "";
+    border-bottom: 1px dotted;
+    flex-grow: 1;
+    order: 2;
+    position: relative;
+    top: -5px
+}
+
+.phb .index span + span {
+    order: 3;
+    margin-left: 0.2em;
+}
+
+
+/* NON BLENDED IMAGE BORDER */
+
+.phb .non-blended {
+    padding: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-image: linear-gradient(135deg, rgba(230, 0, 0, 1) 0%, rgba(230, 0, 0, 0.01) 99%, rgba(230, 0, 0, 0) 100%);
+    -moz-border-image: -moz-linear-gradient(-45deg, rgba(230, 0, 0, 1) 0%, rgba(230, 0, 0, 0.01) 99%, rgba(230, 0, 0, 0) 100%);
+    -webkit-border-image: -webkit-linear-gradient(-45deg, rgba(230, 0, 0, 1) 0%, rgba(230, 0, 0, 0.01) 99%, rgba(230, 0, 0, 0) 100%);
+    border-image-slice: 1;
+}
+</style>
+
+
+
+<style>
+
+.phb:after {
+    display: none;
+}
+
+/* Background */
+
+.phb:nth-child(n+2):nth-child(even){ 
+    background-image : url('https://raw.githubusercontent.com/gwestwater/gmbinder-theme-force-destiny/master/Even_Page_2.jpg');
+    background-size  : cover;
+}
+.phb:nth-child(n+2):nth-child(even) .pageNumber { color: white; margin-left: 120px; bottom: 40px;  }
+.phb:nth-child(n+2):nth-child(even) .footnote { right: 70px; left: auto; text-align: right; width:400px; bottom: 40px;  }
+
+.phb:nth-child(n+2):nth-child(odd){ 
+    background-image : url('https://raw.githubusercontent.com/gwestwater/gmbinder-theme-force-destiny/master/Odd_Page_2.jpg');
+    background-size  : cover;
+}
+.phb:nth-child(n+2):nth-child(odd) .pageNumber { color: white; margin-right: 120px; bottom: 40px;  }
+.phb:nth-child(n+2):nth-child(odd) .footnote { left: 70px; right: auto; text-align: left; width:400px; bottom: 40px;  }
+ 
+</style>
+
+<style>
+  .phb#p1{ 
+  text-align:center; 
+  background-image : url('https://vignette.wikia.nocookie.net/starwars/images/8/88/FD_GMK_cover.jpg/revision/latest/scale-to-width-down/1000?cb=2016030');
+}
+  .phb#p1:after{ display:none; }
+</style>
+
+<div style='margin-top:450px;'></div>
+
+# Title of Your Document
+
+<div style='margin-top:25px'></div>
+<div class='wide'>
+
+##### Sub-title
+
+</div>
+
+\pagebreakNum
+
+
+
+# Edge of the empire GM Binder Theme
+
+Header 1 should be used to create chapter titles (like above). The first letter of the next text block will be capitalized just like this automatically! Headline 1 and Headline 2 both also span both columns. If you separate your text above a Headline 1 or Headline 2 with a blank line in the editor it will automatically shift the contents of everything after the blank line to the second size.
+
+If you reach the end of a column it will roll over to the next column automatically, but this will not always create an attractive spacing at the bottom. You can force GM binder to start a new column like this by using the `\columnbreak` command.
+
+## Headline 2
+
+Headline 2 denotes major sections of the chapter. Whenever you need a header inside a chapter, this should be your go to! 
+
+### Headline 3
+
+Headline 3 is simply a 2nd layer of denotation you can use. Any time you need to separate out different ideas underneath an H2, use this.
+
+<br><div class='note'>
+
+#### Headline 4
+
+This is to be used inside the "Notes".
+
+</div><br>
+
+##### Headline 5
+
+Headline 5 is simply a 3rd layer of denotation you can use. Any time you need to separate out different ideas underneath an H3, use this. Note, that this is usually the deepest level of denotation you should use. If you are doing a considerable list, consider using Headline 6 instead.
+
+
+###### Headline 6
+Headline 6 is used to create lists that require significant detail. It is most notably used to list talents. This is a bottom tier header, meaning there should never be any headers "underneath" it in the document.
+
+
+## Type Faces
+
+There are many different type faces. Underlines can be created with the HTML `<u></u>` tag, while the rest can be done with <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#code">markdown</a>.
+
+* **Bold**
+* *Italics*
+* ~~Strikethrough~~
+* <u>Underline</u>
+* ^Super^
+* <sup>SuperScript</sup>
+* <sub>SubScript</sub>
+* [Internal Link](https://www.gmbinder.com)
+* [External Link](https://www.reddit.com/r/uneartherarcana)
+
+1. Item 1
+2. Item 2
+3. Item 3
+
+* Item 1
+* Item 2
+* Item 3
+
+## Footers and Pages
+
+Footers, like the one at the bottom of this page, can be created with the following code:
+
+`<div class="footnote">THEME TESTER 333 GENESYS</div>`
+
+     When you're ready to end a page, you can use
+
+`\pagebreaknum`. This will automatically create a new page for you! If you're at the end of your document, and don't want a new page, you'll want to hide the blank page with `<style> #pX{ display: none;}</style>`, where "X" is the number of the page that needs hidden.
+
+
+
+<div class="footnote">THEME TESTER EDGE OF THE EMPIRE</div>
+
+\pagebreakNum
+
+<div class='note'>
+
+#### <u>Symbol Key</u>
+
+<br />
+
+Note: The bottom line of these boxes title's should be underlined with the HTML underline tag. <br />
+<span class='symbols'>a</span> = Advantage<br>
+<span class='symbols'>h</span> = Threat<br>
+<span class='symbols'>f</span> = Failure<br>
+<span class='symbols'>s</span> = Success<br>
+<span class='symbols'>t</span> = Triumph<br>
+<span class='symbols'>d</span> = Despair<br>
+<span class='setback'>b</span> = Setback Dice<br>
+<span class='boost'>b</span> = Boost Dice<br>
+<span class='difficulty'>d</span> = Difficulty Dice<br>
+<span class='ability'>d</span> = Ability Dice<br>
+<span class='challenge'>c</span> = Challenge Dice<br>
+<span class='proficiency'>c</span> = Proficiency Dice <br>
+
+You can create a "Note" box like this with `<div class='note'></div>`. To create the dice and their symbols
+
+</div>
+
+<div style="margin-top:10px;"></div>
+
+ To create the dice and their symbols, use: 
+ 
+```
+<span class='symbols'>a, h, f, s, t, d </span>
+<span class='setback'>b</span>
+<span class='boost'>b</span
+<span class='difficulty'>d</span>
+<span class='ability'>d</span>
+<span class='challenge'>c</span>
+<span class='proficiency'>c</span>
+```
+
+<div class='example'>
+
+##### Example
+You can create example boxes like this with `<div class='example'></div>`
+
+</div>
+
+<div style="margin-top:25px;"></div>
+
+<div class="read"> Read Aloud Text  like this is created with the HTML DIV tag and the "read" class. It normally has some more stuff in it so I'm just gonna type a bit of random mumbo jumbo to make the box a little bigger.</div>
+
+<div style="margin-top:25px;"></div>
+
+\columnbreak
+
+### Stat Blocks
+
+You can create a number of stat blocks as seen in the book with the following code:
+
+##### Archetype Statblock
+
+<div class="archetype">
+<span class="bra">121</span>
+<span class="agi">2</span>
+<span class="int">3</span>
+<span class="cun">4</span>
+<span class="wil">5</span>
+<span class="pre">6</span>
+</div>
+
+```
+<div class="archetype">
+<span class="bra">1</span>
+<span class="agi">2</span>
+<span class="int">3</span>
+<span class="cun">4</span>
+<span class="wil">5</span>
+<span class="pre">6</span>
+</div>
+```
+
+##### Adversary and Minion Statblock
+
+<div class="adversary">
+<span class="soak">7</span>
+<span class="wound">18</span>
+<span class="strain">19</span>
+<span class="mdef">0</span>
+<span class="rdef">1</span>
+</div>
+<div class="minion">
+<span class="soak">7</span>
+<span class="wound">10</span>
+<span class="mdef">1</span>
+<span class="rdef">1</span>
+</div>
+
+Start with an Archetype then add:
+
+```
+<div class="adversary">
+<span class="soak">7</span>
+<span class="wound">18</span>
+<span class="strain">19</span>
+<span class="mdef">0</span>
+<span class="rdef">1</span>
+</div>
+```
+
+Or use "minion" for the class, and delete the strain span.
+
+##### Vehicle Statblock
+
+<div class="vehicle">
+<span class="sil">1</span>
+<span class="speed">3</span>
+<span class="hand">2</span>
+<span class="armor">4</span>
+<span class="def">5</span>
+<span class="ht">55</span>
+<span class="ss">66</span>
+</div>
+
+```
+<div class="vehicle">
+<span class="sil">1</span>
+<span class="speed">3</span>
+<span class="hand">2</span>
+<span class="armor">4</span>
+<span class="def">5</span>
+<span class="ht">55</span>
+<span class="ss">66</span>
+</div>
+```
+
+
+
+<div class="footnote">THEME TESTER GENESYS</div>
+
+\pagebreakNum
+
+
+<div class="note wide">
+
+#### <u>Wide Note</u>
+
+In the Genesys book there are notes and tables that span both columns like this. Simply add the "wide" class to either one to get this effect. Be careful, though, as it does wreak havoc on the page's formatting - be prepared to manually position some of the paragraphs and items on these pages.
+
+<br/>
+
+##### Table Titles are a Headline 5
+| Other Stuff will go here | In a wide table | 
+|:---:|:---:| 
+| And Here |  And Here | 
+| <span class='difficulty'>d</span> <span class='symbols'>a</span> | Symbols work in tables too! |
+
+
+### Bug List
+
+
+</div>
+
+
+##### Chart of Examples
+<table>
+    <thead>
+        <tr>
+            <th>ROLL</th><th>RESULT</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr> 
+            <td><span class='symbols'>a or t</span></td><td>Recover 1 strain. Add <span class='boost'>b</span> to next check by yourself or  ally.  </td>
+        </tr>
+        <tr class="subheader">
+            <td colspan="2">"Subheader" is a tr class</td>
+        </tr>
+        <tr>
+        <td><span class='symbols'>aa or t</span></td><td> Perform an immediate free maneuver (still max 2 per turn). Add <span class='boost'>b</span> to next skill check by opponent.</td>
+        </tr>
+        <tr>
+        <td><span class='symbols'>aaa or t</span></td><td> Negate enemy defense. Ignore environment. Damage a target's gear/limbs. Gain +1 defense for 1 turn.</td>
+        </tr>
+    </tbody>
+</table>
+
+You can use markup to create tables just fine, normally, but you do need to build the table in HTML if you want to use a "Subheader" row (such as a weapon table). Unforunately Markdown doesn't support applying a class to a table row!
+
+     You can also create an index for your document (and with a little bit of formatting, use this to create a table of contents as well!) The title page for index is just a Headline 2, wide, and centered. The code for the letters and rows is below:
+
+```
+<span class="index-letter">A</span>
+<ul class="index">
+<li><span>Apple</span><span>32</span></li>
+<li><span>Angry</span><span>25</span></li>
+</ul>
+```
+     This will automatically space the dots for you, so no worrying about counting them out! You can see the example on the next page.
+
+\columnbreak
+
+<div style="margin-top:25px;"></div>
+
+     In the Genesys book, images that don't blend into the background are surrounded by the frame like below. Simply add the "nonblended" class to the image tag when adding it to create this surround.
+
+<img class="non-blended" style="width:325px" src="https://cf.geekdo-images.com/images/pic1074405_md.jpg">
+
+
+
+
+<div class="footnote">THEME TESTER<BR />
+<p>GENESYS</p></div>
+
+\pagebreakNum
+
+<div class="wide">
+
+<center>
+
+## Index
+
+</div>
+
+<div style="margin-top:25px;"></div>
+
+<span class="index-letter">A</span>
+<ul class="index">
+<li><span>Apple</span><span>32</span></li>
+<li><span>Angry</span><span>25</span></li>
+</ul>
+
+<div class="note">
+
+#### <u>Change Log</u>
+
+##### 2/8/18
+
+* Updated sheet to use the "Crimson Text" font in leiu of Minion. This will keep the document more uniform as all fonts can now be hosted.
+* Adjusted font sizes/weights to more accurately represent the book.
+* Added "Minion" statblock
+* Updated "Adversary" statblock - the characteristics are now applied separately with an "archetype" statblock. * Resized statblocks to prevent background clipping
+*Sswapped position of "Handling" and "speed" in vehicle stat block - **Note: PREVIOUSLY MADE STAT BLOCKS NEED TO SWAP THESE SPANS AS WELL, OR FORMATTING WILL BE BROKEN**
+* Corrected a bug that prevented subheaders on certain table rows.
+* Added spacing between paragraphs.
+* Provided instructions to indent subsequent paragraphs - cannot be done automaticaly as forced paragraph breaks are neccessary for breaking columns sometimes.
+* Removed image sizing from the non-blended image - image sizing should be done in the image tag.
+* Made some improvements to the Style Guide
+* General cleaning of CSS code
+
+
+</div>
+
+\columnbreak
+
+<div style="margin-top:25px;"></div>
+
+<span class="index-letter">B</span>
+<ul class="index">
+<li><span>Bangarang</span><span>42</span></li>
+<li><span>Batman</span><span>33, 126</span></li>
+</ul>
+
+<div class="footnote">THEME TESTER<BR />
+<p>GENESYS</p></div>
+
+
+
+\pagebreakNum
+<style>
+    #p5{ display: none;}
+</style>
+
+\pagebreakNum
+
+<style>
+  .phb#p1:after { display:none; }
+</style>
+
+<div class='dark wide'>
+
+<div class='wide'>
+
+<div style='height: 150px;'></div>
+
+<div class='chapter-title'>
+
+# XII
+
+## Trouble Brewing
+
+</div>
+
+</div>
+
+<div class='chapter-page'>
+
+<div class='wide'>
+
+<blockquote>
+
+*"Pirates? Smugglers? We don't have any of them on Formos."*
+
+–Lieutenant Pavan, Formos Garrison
+
+</blockquote>
+
+<div style='height: 150px;'></div>
+
+</div>
+
+This adventure is set on the planet of Formos, a backwater world in the Outer Rim. The planet itself is not particularly notable, but stands at the junction of two busy hyperspace routes. The Pabol Sleheyron runs Coreward into nearby Hutt Space while the Triel­ lus Trade Route provides access to both spinward and trailing regions of the Outer Rim. Furthermore, For­ mos is directly linked to the mining world of Kessel via a narrow corridor of navigable space called the Kes­ sel Run. As a result, Formos has become a notorious haven for all manner of smugglers, spacers, and scum.
+
+In recent times, a vicious pirate named Bandin Dobah has begun to exert control over the move­ ment of contraband in and out of the Formos Spaceport This ruthless and ambitious Aqualish has earned himself some powerful enemies; after all, the planet of Formos is close to Hutt Space and they do not tolerate direct competition of this sort for long So far Dobah has kept one step ahead of justice, and he has managed to build and maintain control through a combination of force and dumb-for the time being, at least
+
+There are currently two bounties on Dobah's head. The Empire offers the first bounty Moruth Doole, administrator of the prison planet of Kessel, believes that taking a tough stance on crime may win the hearts and minds of locals. This has yet to pay off, as the residents of Formos are as scandalized by geno­ cide and slavery as other inhabitants of the galaxy, and deeply resentful of the Empire's rule as a result A Hutt kingpin looking to make a name for himself offers the second, smaller bounty.
+
+In order to keep ahead of the bounty hunters on his trail, Bandin Dobah has arranged for the abduction of an R4 astromech droid with superlative programming relating to the local hyperspace routes and asteroid fields. He has also made contact with an experienced bounty hunter, a Rodian named Codon Netakka. For the time being, Dobah has managed to talk the boun­ ty hunter into abandoning his duty, but has not quite succeeded in his attempts to recruit him.
+
+While things are currently looking good for Dobah, circumstances are set to send him on a collision course with a band of adventurers.
+
+
+</div>
+
+</div>
+
+\pagebreak
+
+## Adventure Summary
+
+The main plot of the adventure deals with the Player Characters coming to learn about the existence of Bandin Dobah and the trouble he is causing for the ragtag community of smugglers and fringers who make a living on Formos. They also discover that he has a sizable bounty on his head.
+
+The first part of the adventure deals with describing the Formos Spaceport and discussing some of the rea­ sons the PCs might visit it. Important areas and locations are described. There are some optional encounters that the GM can employ to give a little extra life to the sur­ roundings or develop into side plots should he wish to.
+
+The adventure really begins when the PCs decide to visit the local cantina. On their way, they discover a battered droid, wrecked beyond repair with only a few dwindling signs of function left. He is able to tell the PCs that a friend of his has been abducted, apparently on the orders of a local smuggling boss. At the cantina, the PCs learn more about the smuggler, a violent Aqualish named Bandin Dobah. They find out about the bounty on his head, and they may become entangled in a brawl.
+
+Whether the PCs intend it to or not, the brawl es­ calates into a violent confrontation with Daro Blunt, a smuggler who works as part of a network connected to Dobah. The PCs may find their way to Blunt's safe house, where they are able to recover the missing droid.
+
+Several clues lead the PCs into discovering Dobah's whereabouts, and help from NPCs and the promise of reward should encourage the PCs to hunt him down. This leads to a confrontation on a large asteroid within the Kessel Run itself, and the PCs could further enrich themselves by recovering contraband.
+If the PCs refuse to bring the smuggler to justice, Dobah nevertheless decides that they present a threat and comes looking for them.
+
+Should the PCs prevail, all that remains to them is to collect their reward, which could lead to a tense encoun­ ter with agents of the Empire or an ambitious Hutt.
+
+## GET THE PCS INVOLVED
+
+In order to set the events of this scenario into motion, the PCs travel to the Formos Spaceport and make their way to a local cantina. As the adventuring party is likely to include characters who are at home within the gal­ axy's underworld, this should be no great challenge.
+
+The best way to come up with a reason as to why the PCs are heading to the cantina is to consider the various Obligations they are under, then to utilize these in explain­ ing why the PCs are headed to Formos in the first place.
+
+As an example, a Smuggler PC might owe an Obliga­tion to one of his contacts who has asked him to meet
+with someone in the cantina to facilitate the transfer of contraband. A Bounty Hunter PC might need to go to the
+
+cantina to meet someone who owes him credits, or may already be on the trail of smugglers in the area. Other thieves or criminals could be on the run and flee to Formos to escape Imperial or planetary justice (as law enforcement on the planet is exceedingly lax).
+
+If the party is newly created, perhaps their backstory could take into account the fact that they have assembled in the Formos Spaceport (which is exactly the sort of law­ less frontier territory in which such characters might meet).
+
+At the end of the day, the cantina is one of the few places on the planet where you can buy food and drink, so the PCs are sure to gravitate there given enough time.
+
+## THE FORMOS SPACEPORT
+
+Formos is a forbidding world with few inhabitants. The climate is arid and much of the world is forbidding rocky desert shrouded by dusty, dark clouds. Were it not for its position at the junction of busy hyperspace routes, it is unlikely that anyone would choose to live there. While it is a terrestrial planet with a breathable atmosphere and standard gravity, life does not flour­ ish upon the world's dry surface. The only settlement of note is a hardscrabble spaceport with a reputation for shady deals and rough customers. The inhabitants of the Formos Spaceport are mostly human, though the place is quite cosmopolitan and many of the major spacefaring species can be found making a home here.
+Despite its grim reputation, the Formos Spaceport is famed among the smuggling community. It lies at the far end of the Kessel Run, a narrow corridor of navi­ gable space that snakes between the asteroid fields and black hole clusters that separate Formos from the prison planet Kessel. After the Kessel Run terminates in an asteroid-filled nebula known as the Pit, most pi­ lots proceed to Formos to link up with more defined hyperspace lanes to reach the wider galaxy. The mines of Kessel produce one of the most lucrative spices in the galaxy. This is glitterstim, a narcotic reported to in­ duce a telepathic high in those who use it.
+
+The Kessel Run is a risky route that must be made partially in hyperspace and partially in real space, and those who undertake it must evade constant Imperial patrols and dangerous black hole clusters. The smug­ glers who make the run, while they may be ruthless criminals in actual fact, have gained a reputation for defiant heroism in those quarters of the galaxy op­ posed to the rule of the Empire.
+Ultimately, there are two sides to life in the Formos Spaceport. On the one hand, it is a violent and lawless place, and on the other it is an icon to freedom fight­ ers. In such a place idealistic rebels, alien refugees, and manumitted droids rub shoulders with fugitive psycho­ paths and gangsters. The Empire has little presence on the planet, though a recently manned barracks hints of what might be in store for the lawless world's future.
+
+The spaceport consists of a large docking area for the storage of cargo and spaceships. 
+
+\pagebreakNum
+
+This is surrounded by a ramshackle settlement of individual dwellings and ware­ houses. These are ugly and utilitarian buildings, blocky and gray like the crags of rock that dot the surface of Formos. A few traders have set up businesses in the spaceport selling foodstuffs, water, weapons, and the sort of equipment required by fringers, smugglers, and spacers. The sprawling streets are dotted with piles of crates, portable trash compactors, and vaporators.
+
+There are a few large and well-appointed buildings within the spaceport that aren't part of the docks or warehousing One of these is a fortified building housing a group of Impe­ rial Army Troopers and the other is the Rii Jenks Cantina.
+
+### Imperial Army Barracks
+
+There is not much of an Imperial presence on Formos and the rather forlorn band of Imperial Army Troopers who are stationed on the planet are nothing more than a token gesture of force and authority. They are merely a reminder to the smugglers and fringers of the world that the Empire has eyes everywhere and could make matters much worse for them should it feel the need.
+
+As it is, the troopers and locals tend to steer clear of each other and allow business to go on as usual. There is an un­ spoken rule that a quiet toleration of each other is best for everyone. The troopers know that if they start leaning heav­ ily on the smuggling operations that go on throughout the Formos Spaceport, they may well have an insurrection to deal with, so they let the smugglers be. On the other hand, the locals know that if they were to attack the troopers, the Empire would probably arrange for a violent reprisal And so, grudgingly, they tolerate them. Every once in a while the smuggling community of Formos lets it be known that a certain individual is proving a problem with everyone, and the troopers deal with them. This benefits the smug­ glers [who can tell any off-world contacts that the blame for shortcomings of service lies with the troopers) and it suits the troopers [who can point to the occasional arrests they make with the support of the smuggling community as evidence of their hard work and careful investigations].
+
+Every once in a while, a group of four troopers makes their way to the docks and gives a cursory glance at some of the incoming cargo, but they rarely trouble any of the smuggling operations going on. The PCs may see such a group making a patrol, but they won't bother with the PCs unless members of the party interact with them or overtly commit some offense. They will not get involved with the PCs unless the PCs bother them first There are 18 Imperial Army Troopers in total, two of whom are squad sergeants. Each has access to armored clothing and breastplates, a blaster rifle, and
+two frag grenades. The barracks also has several heavier weapons, including a pair of E-Web heavy repeating blasters and an antiquated Atgar 1.4 FDP-Tower on the roof that theoretically can be used to shoot down illicit transports.
+
+\columnbreak
+
+### The Rii Jenks Cantina
+
+While the forbidding planet and ramshackle spaceport might draw a poor report from visitors, the Rii Jenks Cantina is seen as something of a saving grace for For­ mos After all, even the most vicious of smuggling gangs like a place to kick back and relax after making the Kessel Run. Rii Jenks is a canny old Bith who makes a lucrative living from selling food, drinks, and entertainment to weary space travelers. He is careful to make sure that threats to his business, such as Imperial agents and Hutt kingpins, are kept sweet with regular payments of bribes and information. Rii also stays on the right side of the smuggling community, offering them an effective safe house and storeroom and making sure none of the information he sells conflicts with the interests of smugglers Like most cantinas on the rim, Rii Jenks' establishment draws a cosmopolitan crowd. He even welcomes droid customers in the knowledge that having a protocol unit or two in the place can help solve misunderstandings and disputes [and his prices for oil baths are nothing short of extortionate).
+
+Over the years, the cantina has served as the venue for some of the best up-and-coming musical acts of the Outer Rim. Currently in residence are Fia Mund, a Sullustan Kloo Horn player who is generating rave reviews, and a Xexto group playing raucous traditional Troiken percussion music, which is great if one has the taste for that sort of thing. 
+
+## LANDING ON FORMOS
+
+The Formos Spaceport is considered a Limited Services Port; it consists of a large area of duracrete upon which all but the heaviest of freighters can effect a safe landing. There is a small control tower and a number of sheds for docking, storage, and maintenance. The spaceport charges relatively small fees·for landing and storing small or medium sized spacecraft, though a smuggler could probably arrange a further discount if he was able to make appropriate Charm checks.
+
+Once the PCs have disembarked from whatever vessel brought them to the planet, read the following to them:
+
+<div class='read'>
+
+As soon as your set foot on the planet, you are instantly struck by the stale and parched atmosphere of Formos. The air is breathable, but desiccated despite the cool climate. Most species begin to feel thirsty shortly after landing on the planet and those used to life on humid worlds soon feel dehydrated and uncomfortable. You notice that species with aquatic heritage, such as Aqualish, Mon Calamari, and Herglic, are notably absent from those who make a home here.
+
+Thankfully, water sellers are a common sight patrolling the streets and docks, though the prices they advertise would be considered extortionate on most habitable worlds.
+
+</div>
+
+\pagebreakNum
+
+### SOME OPTIONAL ENCOUNTERS
+
+In order to add some variety into the game, the following five short encounters can be added while the PCs wan­ der the streets of the spaceport. They have no relevance to the main plot or each other, so they are merely provid­ ed for the GM to employ as he chooses and to help the players appreciate that not everything that happens in the universe is directly tied to the events affecting them. These encounters do not need to take place at the begin­ ning of the adventure or in any particular order. However, it is recommended that the GM get them out of the way sooner rather than later so that they don't provide too much distraction from the action of the main plot.
+
+#### SMUGGLING OPERATION
+
+As the PCs make their way down one of the alleyways of the Formos Spaceport, have them all make an Easy(+) Perception check. Those who pass the check notice that the earth to one side of a large warehouse bulges and shifts oddly. A second later a hole appears in the ground as a hidden trapdoor is opened, and a man's head appears and looks around. He checks that there are no Imperial Army Troopers in the vicinity before ex­ iting the cellar along with two companions. They carry three large crates over to a speeder parked nearby. The driver of the speeder hands them some credit chips before flying off with the contraband toward the docks. The smugglers don't much mind the PCs unless they are interrupted in their dealings, in which case they ask the PCs to mind their own business. If they are asked about smuggling or Bandin Dobah they claim ignorance, though they suggest that the PCs might be able to find out more by talking to the patrons of Rii Jenks' Cantina.
+
+#### TRITONITE MISSIONARY
+
+A lone member of the insectile Tritonite species has made his way to Formos to preach. Unfortunately for him, the locals have made it very clear that his message of peace and abstinence is not welcome and, as a result, he spends his days in quiet contemplation. That is unless he spots a strange face, such as that of a PC. On seeing a stranger, the Tritonite gibbers away in a series of clicks and whirrs incomprehensible to all but the best protocol droids. If he can be translated, the Tritonite insists that he has been inspired by the example of Holy Gactimus to turn his back on all forms of
+vice and distraction, eschewing stimulants and entertainment,
+and has thus found an inner serenity more mind-blowing than any narcotic high. He offers the PCs a flexiplast tract that further extols on the benefits of following the example set by the obscure religious figure.
+
+#### THE CHEAPEST WATER SELLER ON FORMOS
+
+A heavily burdened and aging human woman stands by one of the busi­ er thoroughfares near the docks. She carries a plas­ tic water jug on her back and also hefts a large tray bearing a number of jars of water. She has erected a small sign nearby that reads "Mama Nobah­ Cheapest Water on Formos," and indeed her prices are far more reasonable than any other water sellers the PCs see in the vicin­ ity Mama Nobah is a charming old lady, with a keen and friendly interest in the PCs. She gossips with them about their adventures and aspirations and offers 
+
+them any directions or advice they might need during their visit She also has a sob story, claiming to have once been a resident of Alderaan who only escaped its destruction by the Death Star due to a fortuitous, but fruitless, business trip to Corellia.
+
+Mama Nobah is not as benign as she seems. While she natters to the PCs, her son Jok Nobah attempts to creep up on them to steal whatever he can lift He chooses one of the PCs to steal from and unless the PC passes a Per­ ception check opposed by Jok Nobah's Cunning of 3, he loses any small and accessible items of equipment, or some of the credits that he carries. Should any of the PCs announce that they are keeping an eye out while talking to Mama Nobah, her son errs on the side of caution and leaves them unmolested. If the PCs apprehend the thief, Mama Nobah begs their forgiveness, repeating that their desperate situation is the result of Imperial tyranny and offering free water by way of compensation. If the PCs insist on rough JUStice, Mama Nobah and her son use the Spaceport Urchin profile on page 399 (although they are minions, they are not treated as a group).
+
+#### VREEBO GANGO-RODIAN, WALLFLOWER
+
+Vreebo is a young Rodian and a member of a small smuggling gang that has recently arrived on Formos. His colleagues have tasked him with making contact with another gang of smugglers, who they expect to arrive at around the same time the PCs land on Formos. Why the smugglers have decided to task Vreebo with making contact is not clear, because while he is an expert when it comes to piloting a vessel through dangerous hyperspace corridors, the Rodian is painfully shy with strangers. When Vreebo sees the PCs at the space­ port, he assumes that they are his contacts because the smuggling gang is of a similar size and composition as the party.
+
+However, he isn't sure and doesn't wish to make a fool of himself while finding out As such, he decides to shadow the party for a while in order to make sure he hasn't made a mistake (which, of course, he has) Vreebo will follow the PCs at a distance but does not bother them, deciding after a while that they aren't his contacts after all. During this time, if any of the PCs mentions that he is keeping an eye out for people who might be following them or eavesdropping, he notices Vreebo on an **Average (<span class='difficulty'>d</span><span class='difficulty'>d</span>) Perception check**. If Vreebo is asked what he wants he gives a very flustered, stammering account of expecting to meet some "business con­ tacts." If he is questioned further, he becomes even more bashful, barely able to speak, breaking into a sweat and flushing a deep green color. The PCs may suspect him of being Codon Netakka, though he looks far too frail and nervous to make a career of bounty hunting and his only weapon is a hidden holdout blaster.
+
+#### LEI MUOROY-A YOUNG BANDIT ON THE MAKE
+
+This encounter presents a red herring to the adventurers, and should therefore be used sparingly. Lei Muoroy is a young human male who is running short on credits. As such, he has taken the risky decision of pretending to be a member of Bandin Dobah's smuggling network, and is running an extortion racket. The PCs may encounter Lei menacing an easy target, such as a lone water seller. 
+
+\pagebreakNum
+
+Lei's sales pitch runs along the lines of a growled "I'm here to collect a cut for the Big Man around these parts, know what I mean? That'll be twenty credits if you know what's good for you, plus five extra for the trouble". If the PCs confront Lei, he tries to intimidate them with more talk of the "Big Man" (which is how many locals have begun to refer to Bandin Dobah), but if the PCs don't back down at this, he attempts to make a break for it. 
+
+The fact is that Lei has no connection to Bandin Dobah and his antics would certainly earn the extreme displeasure of 
+
+the Aqualish, who has enough of a code of honor not to wish to be seen dealing in small time extortion. However, interrogating Lei may provide the PCs with some help if they are looking for Daro's safe house, as the young crook knows where it is. As such, it is best to wait until the PCs have visited the cantina before they encounter Lei. If the GM needs a profile for Lei Muoroy, use the Street Tough profile on page 396, armed with just the truncheon and blaster pistol.
+
+# Becoming Embroiled
+
+While the PCs should be able to enjoy a few optional encounters, they are certain to become tangled up in the events of the plot before long
+
+## THE SAD FATE OF J9·BB
+
+This encounter occurs as the PCs are journeying to the Rii Jenks Cantina from their lodgings or spacecraft. As they approach the cantina, read the following out loud to the players
+
+<div class='read'>
+
+The disorderly jumble of hastily constructed dwellings around the cantina makes for a maze of tight alleyways filled with all matter of obstruction. Portable trash compactors, piles of crates, and personal moisture condensers line the gangways that thread between houses and shops.
+
+As you pass a particularly dark and narrow alleyway nestled between a pair of towering warehouses, you hear a commotion. There is a loud rattle and a buzzing noise coming from within the alley. The rattling stops, and you hear a low and monotonous voice calling out. The voice is buzzing and faint, but you can still hear; "Hello! Bzzt! Help Pleazzze! I need help!" The noises seem to come from a large blue trash compactor next to one of the warehouses.
+
+</div>
+
+If the PCs peer inside, they see that, among the various rubbish and junk, there is a badly damaged droid. Its head has been dented, one of its eyes has been smashed, its body has been pulled apart, and all manner of wiring, hydraulics, and hardware are strewn about in the trash compactor.
+
+The Droid is J9-B8, a variant of the 3PO protocol droid made by Cybot Galactica. J9-B8 provided long service to his old master who, wishing to make a point to squabbling relatives, had her droids manumitted on her deathbed (ie. provided the right not to serve any master save themselves) As a free droid, J9- B8 toured the Outer Rim with his companion R4- W9, an astromech who had been employed by
+the same master. The woman who had owned J9-B8 and R4-W9 was a successful smuggler before her death, and the R4 unit was one of the few in the area able to perform a truly comprehensive navigational analysis of the Kessel Run.
+
+Unfortuantely R4-W9's precious knowledge has led to J9-B8's current perilous state. The two droids were making their way to the cantina when they were waylaid by thugs.
+
+These agents of Bandin Dobah wrecked J9-B8 and left him for dead. They then fitted a restraining bolt to R4-W9, overriding his manumission, and delivered him to their boss. Note that J9-B8 has a monotone voice and a speech impediment that renders sibilant sounds as a buzzing noise; this is a shortcoming of the J9's Verpine manufacture made worse by the damage the droid has sustained.
+
+On seeing the PCs, J9-B8 stops calling for help. There are a couple of whirring noises and his head shudders as he speaks.
+
+<div class='read'>
+
+"Ah! Bzzt! Greetingzzz! Zzo glad you f-found me! Pleazzze help! Bzzzt! Tehy took my f-freind! Pleazzze help zzzave R4-W9! Zzzzzbxzzzz!"
+
+</div>
+
+J9-B8 responds to any questions the PCs have at this point, though he is keen to tell them about R4- W9 quickly. He is aware that he does not have much time left as his self-repair mechanisms have done all they can. J9-B8 is totally beyond repair Even characters who attempt to fix him using the Mechanics skill are unable to achieve anything other than affording him a little comfort in his last moments.
+
+If the PCs are willing to listen, J9-B8 says the following:
+
+<div class='read'>
+
+"My friend! R4-W9 and I were on our way to the cantina when we were zzzet upon by a band of th-thu-thugzzz! Zzzbxzzt! They tore me apart with barzzz and dragged him away! Pleazzze! It izzz too late to do anyzzzing f-f-for mebut zzzave my friend!"
+
+</div>
+
+At this point the remaining lights in the wreckage of J9- B8's body begin to dim and his voice drops an octave. He continues to speak for a further minute and gives a few more details about the attack, but he becomes ever more incoherent and unresponsive as he does so.
+
+J9-B8 can provide the PCs with any information about his background that he thinks they might use. He also tells them that R4-W9 was prized among the local smug­ glers due to his knowledge of the Kessel Run. He knows that the attack occurred about 20 hours ago, though he isn't exactly sure as it has taken a long time to get his limited systems back online. He thinks the band who attacked him were mostly human, though they were wearing hoods. He believes that his attackers were all male. He saw that they fitted a restraining bolt to R4-W9 before dragging him away. He does not know any of the attackers but suspects they have something to do with an Aqualish named Bandin Dobah who has become notorious in recent 
+
+\pagebreakNum
+
+months for muscling in on a number of smuggling operations along the Kessel Run.
+
+No one else is in the immediate vicinity. If members of the motley community of fringers who make their dwellings nearby are asked about the attack, they complain that there are fights all the time and little at­ tention is paid to them. If quizzed harder, a local may recall that there was some commotion by the ware­ houses the previous day, but he won't have any details.
+
+### AT THE CANTINA
+The Rii Jenks Cantina is fairly busy, with a varied clien­ tele. Read the following out to the players as they en­ ter the cantina:
+
+<div class='read'>
+
+As you enter the lobby of the cantina, you are aware of a change in atmosphere. The air conditioning alone is almost as refreshing as the beverages served at the well-appointed bar promise to be. The cantina is clearly a popular spot for locals to mix, though it isn't so crowded as to make it impossible for you to get seats. All manner of humans and aliens rub shoulders at the bar, and they even seem happy to let droids in. To your right, a flickering holoscreen displays the rotating head of a tough-looking adult make Aqualish, with scrolling text advertising an Imperial bounty.
+
+The cantina consists of two levels, the main level with the bar, and a circular balcony level above, with semi-private booths. The balcony is not too high above the first floor, making the whole arrangement feel more intimate and closed than its size would suggext. To one side of the canina, the balcony is broken by a raised stage upon which Fia Mund, billed as the Sullustan master of the Kloo Horn, plays his instrument. His playing is essentially freeform jatz incorporating a surprising baka rock influence. It shouldnt really work, but he makes something fresh of it and generally receives an approving response from the audience.
+
+</div>
+
+The clientele consists of humans (who make up at least three quarters of the cantina's patrons), Devaronians, Duros, and droids (one of whom is a protocol droid employed by the cantina to interpret for customers who speak different languages). A pair of courting Twi'leks sit in one corner (apparently rather wrapped up in one another) and a garrulous Toydarian flutters near the bar discussing a dubious business venture with a figure dressed in a huge and envelop­ ing red hooded cloak.
+
+Talk in the cantina revolves around fairly mundane matters. Even though Rii Jenks' is considered a haven for smugglers, those in the bar are not so stupid as to discuss business in such an open forum. Neverthe­ less, the clientele do not appreciate snoops and the PCs (especially droids) are best advised to keep from eavesdropping. Most of the conversation revolves around personal matters and irrelevant gossip.
+
+<div class='read'>
+
+
+
+</div>
